@@ -13,5 +13,9 @@ int main()
         //pesan array integer 3 elemen
         cout << data.at(5) << endl;
     }
-  
+    catch (exception& e) {
+        //penangkap menggukan obyek expention
+        cout << e.what() << endl;
+        /*akan dieksekusi karna array data hanya memiliki 3 elemen*/
+    }
 }
