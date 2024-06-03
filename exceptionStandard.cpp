@@ -18,4 +18,8 @@ int main()
         cout << e.what() << endl;
         /*akan dieksekusi karna array data hanya memiliki 3 elemen*/
     }
+    cout << "Baris Program yang terakhir" << endl;
+    /*penanda 2: bahwa program berjalan tanpa berhenti*/
+
+    return 0;
 }
